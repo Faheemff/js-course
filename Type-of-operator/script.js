@@ -132,6 +132,42 @@ console.log(gg);  // Output: 5
 
 
 // *= (Multiplication Assignment):
+
+let sk = 9;
+sk *= 40; // <= example 9 * 40 hai is mai ya ho raha hai is operater mai ya kam ho raha hai
+console.log(sk); // Output: 
+
 // /= (Division Assignment):
+
+let ei = 49;
+ei /= 3;
+console.log(ei);
+
+
 // %= (Modulus Assignment):
 
+let ti = 10;
+ti %= 3;
+console.log(ti); // Output: 1
+
+
+
+// 03) = Comparison operator 
+
+// == (Equals operator);
+
+//  ya operator do value comparison kr ta hai but type ko ignore kr ta hai  example let see!
+
+let x = 10;
+let y = '10';
+
+console.log(x == y );
+
+
+// === (Strict Equality):
+// != (Inequality):
+// !== (Strict Inequality):
+// > (Greater Than):
+// < (Less Than):
+// >= (Greater Than or Equal To):
+// <= (Less Than or Equal To):
