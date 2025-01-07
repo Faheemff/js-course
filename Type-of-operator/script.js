@@ -204,5 +204,15 @@ let bb = 5;
 console.log(aa > bb); // is mai aa variable bb variable sa barha hai to answer true meila ga to ager ni to anwer false meila ga
 
 // < (Less Than):
+
+// ya operator javascript mai do value mai ya dehkta hai ka ek value dusre value sa choti hai ka ni ya dehkta hai
+
+let cc = 10;
+let dd = 5;
+
+console.log(dd < cc); // is mai cc variable dd variable sa choti hai to answer true meila ga to ager ni to anwer false meila ga
+
+
+
 // >= (Greater Than or Equal To):
 // <= (Less Than or Equal To):
