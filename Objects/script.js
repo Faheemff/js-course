@@ -13,3 +13,38 @@ let person = {
 // how to asscess object let see 
 
 console.log(person.name + " " + person.age + " " +  person.city);
+
+// example: of object with function
+
+let person2 = {
+    name: "John Doe",
+    age: 30,
+    city: "New York",
+    greet: function() {
+        console.log("Hello " + this.name);
+    },
+    greet2: ()=> {
+        console.log("Hello ");
+    }
+}
+
+person2.greet(); // Output: Hello John Doe
+
+person2.greet2(); // Output: Hello
+
+
+
+// example: of object with nested objects
+
+let person3 = {
+    name: "John Doe",
+    age: 30,
+    city: "New York",
+    address: {
+        street: "123 Main St",
+        city: "New York",
+        state: "NY"
+    }
+}
+
+console.log(person3.address.street + " " + person3.address.city + " " +  person3.address.state); // Output: 123 Main St New York NY
