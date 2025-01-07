@@ -161,10 +161,19 @@ console.log(ti); // Output: 1
 let x = 10;
 let y = '10';
 
-console.log(x == y );
+console.log(x == y ); // is mai ham ko true meila ha kue is mai is na serf equal keya na ka is ki type dehki ho
 
 
 // === (Strict Equality):
+
+// ya operator javascript mai do value ko comparison is in ki type dehka da type mena ka wo num hai ya str array ab is ko example sa samjta hai !
+
+let q = 1;
+let s = '1';
+
+console.log(q === s); // is mai hm ko false mila ga kue q variable number hai s variable string hai is nai is ko equal keya but is ki type bi check ki lka wo same hai ka ni
+
+
 // != (Inequality):
 // !== (Strict Inequality):
 // > (Greater Than):
