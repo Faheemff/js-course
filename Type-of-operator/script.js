@@ -239,5 +239,5 @@ console.log(ll <= oo);
 
 // 04) = Logical operators 
 
-console.log(!(true&& false));
+console.log(!(true && false));
 
