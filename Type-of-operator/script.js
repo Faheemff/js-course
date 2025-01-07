@@ -227,3 +227,11 @@ console.log(ee >= kk);
 
 
 // <= (Less Than or Equal To):
+
+// ya operator javascript mai right value ko left value sa compare or type ko bi consider kr ta hai ka do types same hai ka ni
+
+
+let ll = 30;
+let oo = 10;
+
+console.log(ll <= oo);;
