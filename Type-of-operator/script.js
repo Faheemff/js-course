@@ -175,6 +175,16 @@ console.log(q === s); // is mai hm ko false mila ga kue q variable number hai s 
 
 
 // != (Inequality):
+
+// ya operator javascript mai ya dehka ta hai ya do value same hai but ya type ko ignore kr ta hai example ek number hai jes  
+// number 5 hai or ek string hai jes mai '5' ya operator in ko dehkga pir in compersion krhai ga ager ek string hai to is ko number 
+// mai converted kr dai ga eb example mai dehta hai 
+
+let w = 10;
+let z = '10';
+
+console.log(w!= z); // is mai ham ko true meila ga kue w variable number hai z variable string hai is nai is ko equal keya but is ki type bi check ki lka wo same hai ka ni
+
 // !== (Strict Inequality):
 // > (Greater Than):
 // < (Less Than):
