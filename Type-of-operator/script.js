@@ -183,10 +183,26 @@ console.log(q === s); // is mai hm ko false mila ga kue q variable number hai s 
 let w = 10;
 let z = '10';
 
-console.log(w!= z); // is mai ham ko true meila ga kue w variable number hai z variable string hai is nai is ko equal keya but is ki type bi check ki lka wo same hai ka ni
+console.log(w!= z); // is mai ham ko false meila ga kue w variable number hai z variable string hai pir ya string ko number mai convert kr dai ga pir hm ko answer mai false meila ga ?
 
 // !== (Strict Inequality):
+
+// ya operator javascript mai ya dehka ta hai ya do value same hai but ya type ko bi consider kr ta hai example ek number hai jes example 
+
+let v = 10;
+let t = '10';
+
+console.log(v!== t); // is mai ham ko true meila ga kue v variable number hai t variable string hai pir hm ko ya true da ga
+
 // > (Greater Than):
+
+// ya operator javascript mai do value mai ya dehkta hai ka ek value dusre value sa barhi hai ka ni ya dehkta hai 
+
+let aa = 10;
+let bb = 5;
+
+console.log(aa > bb); // is mai aa variable bb variable sa barha hai to answer true meila ga to ager ni to anwer false meila ga
+
 // < (Less Than):
 // >= (Greater Than or Equal To):
 // <= (Less Than or Equal To):
