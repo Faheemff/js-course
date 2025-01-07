@@ -234,4 +234,10 @@ console.log(ee >= kk);
 let ll = 30;
 let oo = 10;
 
-console.log(ll <= oo);;
+console.log(ll <= oo);
+
+
+// 04) = Logical operators 
+
+console.log(!(true&& false));
+
