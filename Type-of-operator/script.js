@@ -215,4 +215,15 @@ console.log(dd < cc); // is mai cc variable dd variable sa choti hai to answer t
 
 
 // >= (Greater Than or Equal To):
+
+// ya operator javascript mai left value ko right value sa compare or type ko bi consider kr ta hai ka do types same hai ka ni
+
+
+let ee = 10;
+let kk = 10;
+
+console.log(ee >= kk);
+
+
+
 // <= (Less Than or Equal To):
