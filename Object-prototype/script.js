@@ -6,6 +6,8 @@
 
 // prototype chain
 
+// har ek object ka apna ek prototype chain hota hai matlab ab ap ek object kesi dusre object sa inherit krta hai to wo apni properties ko uske properties se borrow krta hai.
+
 // example:
 
 let obj1 = {
