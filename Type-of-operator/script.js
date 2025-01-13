@@ -30,7 +30,7 @@ console.log(str1 + str2);
 
 // -
 
-// - is operator ka name javascript mai Subtraction operator hai is ka kam javascript
+// - is operator ka name javascript mai Subtraction operator hai is ka kam javascript mai ya hai see with life example
 
 // example
 
