@@ -1,5 +1,5 @@
 // javascript mai hoisting bi hoti hai ap variable ya function ko bane sa pehla use kr sehkta hai 
-// pr let and const ko hoistion ni kr sehkta kue ka in assign krna hota hai
+// pr let and const ko hoistion ni kr sehkta kue ka in ko assign krna hota hai
 
 
 // hoisting ka sehda matlab ap variables ko bana sa pehla use kr sehkta hai
